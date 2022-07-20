@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    <p>Onde você nasceu: <input type="text" id="nas">
+    <input type="button" value="Verificar" onclick="verificar()"></p>
+    
+    <div id="gringo">
+
+    </div>
+    <script>
+        function verificar() {
+            var nação = document.querySelector('#nas')
+            var gringo = document.querySelector('#gringo')
+            var home = String(nação.value)
+            gringo.innerHTML = `<p>Você nasceu em <strong>${home}</strong></p>`
+            if (home == 'Brasil') {
+                gringo.innerHTML += `<p>Você é Brasileiro Nato</p>`
+            } else {
+                gringo.innerHTML += `<p>Você é gringo!!`
+            }
+        }
+    </script>
+</body>
+</html>
