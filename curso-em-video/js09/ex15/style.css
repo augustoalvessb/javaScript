@@ -17,9 +17,9 @@ header h1 {
 section {
     background-color: white;
     color: black;
-    width: 400px;
-    height: 400px;
+    width: 450px;
     margin: 10px auto;
+    padding-bottom: 5px;
     border-radius: 5px;
     box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.353);
     text-align: left;
@@ -35,6 +35,5 @@ div img {
     display: block;
     width: 220px;
     height: 220px;
-    margin: auto;
-    margin-top: 20px;
+    margin: 20px auto;
 }
