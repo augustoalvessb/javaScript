@@ -21,14 +21,14 @@
     </div>
     <script>
         function verificar() {
-            var nação = document.querySelector('#nas')
-            var gringo = document.querySelector('#gringo')
-            var home = String(nação.value)
-            gringo.innerHTML = `<p>Você nasceu em <strong>${home}</strong></p>`
+            var nação = document.querySelector('#nas');
+            var gringo = document.querySelector('#gringo');
+            var home = String(nação.value);
+            gringo.innerHTML = `<p>Você nasceu em <strong>${home}</strong></p>`;
             if (home == 'Brasil') {
-                gringo.innerHTML += `<p>Você é Brasileiro Nato</p>`
+                gringo.innerHTML += `<p>Você é Brasileiro Nato</p>`;
             } else {
-                gringo.innerHTML += `<p>Você é gringo!!`
+                gringo.innerHTML += `<p>Você é gringo!!`;
             }
         }
     </script>

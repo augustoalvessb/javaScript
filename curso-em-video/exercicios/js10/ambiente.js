@@ -1,6 +1,6 @@
-var c = 1
+var c = 1;
 while (c <= 50) {
-    console.log(`Passo ${c}`)
-    c++
+    console.log(`Passo ${c}`);
+    c++;
 }
-console.log('FIM')
+console.log('FIM');
