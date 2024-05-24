@@ -23,23 +23,30 @@ section {
     border-radius: 5px;
     box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.353);
     text-align: left;
+    
 }
 #texto {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+}
+.select {
+    padding: 10px;
 }
 div#texto p {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
     padding: 10px;
 }
 div#texto p input#button {
     padding: 0 10px;
     font-size: 1em;
+    background-color:yellow;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 89, 255, 0.975);
 }
 div img {
     display: block;
